@@ -1,0 +1,532 @@
+  bash arg: -p
+  bash arg: com.pinterest
+  bash arg: -v
+  bash arg: 2000
+:Monkey: seed=1655843016358 count=2000
+:AllowPackage: com.pinterest
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Touch (ACTION_DOWN): 0:(935.0,2301.0)
+:Sending Touch (ACTION_UP): 0:(934.921,2301.6353)
+:Sending Touch (ACTION_DOWN): 0:(1041.0,437.0)
+:Sending Touch (ACTION_UP): 0:(1084.3094,397.51813)
+:Sending Touch (ACTION_DOWN): 0:(664.0,898.0)
+:Sending Touch (ACTION_UP): 0:(638.167,912.04626)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1390.0,279.0)
+:Sending Touch (ACTION_UP): 0:(1373.0736,278.6846)
+:Sending Touch (ACTION_DOWN): 0:(1283.0,610.0)
+:Sending Touch (ACTION_UP): 0:(1280.4584,595.94275)
+:Sending Touch (ACTION_DOWN): 0:(544.0,27.0)
+:Sending Touch (ACTION_UP): 0:(559.95734,36.67385)
+:Sending Touch (ACTION_DOWN): 0:(1116.0,1527.0)
+:Sending Touch (ACTION_UP): 0:(1076.9106,1509.384)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Touch (ACTION_DOWN): 0:(388.0,1132.0)
+:Sending Touch (ACTION_UP): 0:(294.15753,1227.7924)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(387.0,2118.0)
+:Sending Touch (ACTION_UP): 0:(391.66156,2118.5352)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(434.0,2243.0)
+:Sending Touch (ACTION_UP): 0:(408.31296,2355.8687)
+:Sending Touch (ACTION_DOWN): 0:(796.0,69.0)
+:Sending Touch (ACTION_UP): 0:(766.3917,0.0)
+    // Rejecting start of Intent { act=com.android.intent.action.SHOW_BRIGHTNESS_DIALOG cmp=com.android.systemui/.settings.BrightnessDialog } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(55.0,1501.0)
+    //[calendar_time:2022-06-20 20:39:43.102  system_uptime:32428772]
+    // Sending event #100
+:Sending Touch (ACTION_UP): 0:(91.18575,1521.495)
+:Sending Touch (ACTION_DOWN): 0:(291.0,2391.0)
+:Sending Touch (ACTION_UP): 0:(299.44067,2343.5708)
+:Sending Touch (ACTION_DOWN): 0:(245.0,1851.0)
+:Sending Touch (ACTION_UP): 0:(231.70442,1846.6602)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(605.0,1708.0)
+:Sending Touch (ACTION_UP): 0:(599.0567,1723.0353)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(780.0,1784.0)
+:Sending Touch (ACTION_UP): 0:(796.247,1782.989)
+:Sending Touch (ACTION_DOWN): 0:(294.0,755.0)
+:Sending Touch (ACTION_UP): 0:(310.7816,763.17175)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(915.0,2098.0)
+:Sending Touch (ACTION_UP): 0:(903.9534,2094.7224)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(79.0,1453.0)
+:Sending Touch (ACTION_UP): 0:(69.3243,1463.0973)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    //[calendar_time:2022-06-20 20:39:46.663  system_uptime:32432195]
+    // Sending event #200
+:Sending Touch (ACTION_DOWN): 0:(755.0,1016.0)
+:Sending Touch (ACTION_UP): 0:(746.6138,1015.9234)
+:Sending Touch (ACTION_DOWN): 0:(1231.0,1158.0)
+:Sending Touch (ACTION_UP): 0:(1213.4722,1186.8226)
+:Sending Touch (ACTION_DOWN): 0:(1210.0,2085.0)
+:Sending Touch (ACTION_UP): 0:(1212.2225,2084.7954)
+:Sending Touch (ACTION_DOWN): 0:(219.0,1454.0)
+:Sending Touch (ACTION_UP): 0:(204.81476,1456.0228)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1370.0,40.0)
+:Sending Touch (ACTION_UP): 0:(1368.7839,28.292656)
+:Sending Touch (ACTION_DOWN): 0:(799.0,308.0)
+:Sending Touch (ACTION_UP): 0:(802.4016,310.24796)
+:Sending Touch (ACTION_DOWN): 0:(1072.0,1628.0)
+:Sending Touch (ACTION_UP): 0:(1071.5978,1631.844)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(496.0,376.0)
+:Sending Touch (ACTION_UP): 0:(483.81592,367.64813)
+:Sending Touch (ACTION_DOWN): 0:(974.0,1030.0)
+:Sending Touch (ACTION_UP): 0:(966.919,1021.0659)
+:Sending Touch (ACTION_DOWN): 0:(1230.0,2090.0)
+:Sending Touch (ACTION_UP): 0:(1193.2494,2077.6094)
+:Sending Touch (ACTION_DOWN): 0:(577.0,505.0)
+:Sending Touch (ACTION_UP): 0:(483.31677,585.1327)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+    //[calendar_time:2022-06-20 20:39:49.246  system_uptime:32434778]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(772.0,793.0)
+:Sending Touch (ACTION_UP): 0:(770.06213,798.9247)
+:Sending Touch (ACTION_DOWN): 0:(768.0,1146.0)
+:Sending Touch (ACTION_UP): 0:(755.68463,1148.9718)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(425.0,618.0)
+:Sending Touch (ACTION_UP): 0:(417.30603,611.642)
+:Sending Touch (ACTION_DOWN): 0:(165.0,312.0)
+:Sending Touch (ACTION_UP): 0:(87.428986,321.6119)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(1185.0,103.0)
+:Sending Touch (ACTION_UP): 0:(1187.0903,98.009995)
+:Sending Touch (ACTION_DOWN): 0:(307.0,1081.0)
+:Sending Touch (ACTION_UP): 0:(303.8068,1068.356)
+:Sending Touch (ACTION_DOWN): 0:(388.0,1594.0)
+:Sending Touch (ACTION_UP): 0:(387.93774,1600.2489)
+:Sending Touch (ACTION_DOWN): 0:(655.0,492.0)
+:Sending Touch (ACTION_UP): 0:(623.4344,506.57043)
+:Sending Touch (ACTION_DOWN): 0:(488.0,499.0)
+:Sending Touch (ACTION_UP): 0:(489.0054,513.2221)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(671.0,1726.0)
+:Sending Touch (ACTION_UP): 0:(672.8042,1732.8657)
+:Sending Touch (ACTION_DOWN): 0:(398.0,460.0)
+:Sending Touch (ACTION_UP): 0:(407.1989,460.1492)
+    //[calendar_time:2022-06-20 20:39:50.785  system_uptime:32436318]
+    // Sending event #400
+    //[calendar_time:2022-06-20 20:39:50.799  system_uptime:32436332]
+    // Sending event #400
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Touch (ACTION_DOWN): 0:(1297.0,453.0)
+:Sending Touch (ACTION_UP): 0:(1233.0553,371.11682)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(318.0,1666.0)
+:Sending Touch (ACTION_UP): 0:(326.77197,1662.9811)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    //[calendar_time:2022-06-20 20:39:53.130  system_uptime:32438662]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(1202.0,574.0)
+:Sending Touch (ACTION_UP): 0:(1203.712,576.2869)
+:Sending Touch (ACTION_DOWN): 0:(926.0,1479.0)
+:Sending Touch (ACTION_UP): 0:(890.6938,1493.5724)
+:Sending Touch (ACTION_DOWN): 0:(692.0,2284.0)
+:Sending Touch (ACTION_UP): 0:(691.3751,2280.3904)
+:Sending Touch (ACTION_DOWN): 0:(683.0,619.0)
+:Sending Touch (ACTION_UP): 0:(673.01685,621.066)
+:Sending Touch (ACTION_DOWN): 0:(240.0,2024.0)
+:Sending Touch (ACTION_UP): 0:(258.63318,2028.079)
+:Sending Touch (ACTION_DOWN): 0:(1091.0,98.0)
+:Sending Touch (ACTION_UP): 0:(1102.9954,118.183044)
+:Sending Touch (ACTION_DOWN): 0:(1234.0,1741.0)
+:Sending Touch (ACTION_UP): 0:(1247.5963,1738.2212)
+:Sending Touch (ACTION_DOWN): 0:(160.0,377.0)
+:Sending Touch (ACTION_UP): 0:(155.20433,379.47095)
+:Sending Touch (ACTION_DOWN): 0:(773.0,980.0)
+:Sending Touch (ACTION_UP): 0:(777.909,920.94574)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(570.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(542.96466,1054.4548)
+:Sending Touch (ACTION_DOWN): 0:(24.0,715.0)
+:Sending Touch (ACTION_UP): 0:(44.96049,706.9647)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher3/.uioverrides.QuickstepLauncher } in package com.android.launcher3
+    // Injection Failed
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.android.dialer cmp=com.android.dialer/.main.impl.MainActivity } in package com.android.dialer
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+    //[calendar_time:2022-06-20 20:39:57.219  system_uptime:32442752]
+    // Sending event #600
+    //[calendar_time:2022-06-20 20:39:57.220  system_uptime:32442752]
+    // Sending event #600
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(947.0,1355.0)
+:Sending Touch (ACTION_UP): 0:(945.646,1366.4733)
+:Sending Touch (ACTION_DOWN): 0:(1168.0,2175.0)
+:Sending Touch (ACTION_UP): 0:(1173.7183,2171.3943)
+:Sending Touch (ACTION_DOWN): 0:(674.0,1831.0)
+:Sending Touch (ACTION_UP): 0:(682.73566,1824.3151)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(121.0,647.0)
+:Sending Touch (ACTION_UP): 0:(123.818504,633.14624)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(107.0,1815.0)
+:Sending Touch (ACTION_UP): 0:(98.53,1838.234)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(466.0,429.0)
+:Sending Touch (ACTION_UP): 0:(499.88663,443.61795)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(775.0,485.0)
+:Sending Touch (ACTION_UP): 0:(761.9101,492.717)
+:Sending Touch (ACTION_DOWN): 0:(87.0,2120.0)
+:Sending Touch (ACTION_UP): 0:(68.801125,2135.3545)
+    //[calendar_time:2022-06-20 20:40:01.478  system_uptime:32447011]
+    // Sending event #700
+    //[calendar_time:2022-06-20 20:40:01.479  system_uptime:32447012]
+    // Sending event #700
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(124.0,790.0)
+:Sending Touch (ACTION_UP): 0:(101.05036,828.51764)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1392.0,724.0)
+:Sending Touch (ACTION_UP): 0:(1391.3154,734.63214)
+:Sending Touch (ACTION_DOWN): 0:(1107.0,1794.0)
+:Sending Touch (ACTION_UP): 0:(1067.3322,1769.203)
+:Sending Touch (ACTION_DOWN): 0:(1317.0,1003.0)
+:Sending Touch (ACTION_UP): 0:(1241.245,1055.1788)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1332.0,435.0)
+:Sending Touch (ACTION_UP): 0:(1334.1796,455.96512)
+    //[calendar_time:2022-06-20 20:40:03.395  system_uptime:32448928]
+    // Sending event #800
+    //[calendar_time:2022-06-20 20:40:03.396  system_uptime:32448928]
+    // Sending event #800
+:Sending Touch (ACTION_DOWN): 0:(854.0,1653.0)
+:Sending Touch (ACTION_UP): 0:(785.9118,1700.12)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1202.0,2222.0)
+:Sending Touch (ACTION_UP): 0:(1213.113,2228.6162)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(215.0,410.0)
+:Sending Touch (ACTION_UP): 0:(190.99684,392.20618)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(957.0,51.0)
+:Sending Touch (ACTION_UP): 0:(836.6826,38.268795)
+    //[calendar_time:2022-06-20 20:40:07.500  system_uptime:32453033]
+    // Sending event #900
+:Sending Touch (ACTION_DOWN): 0:(524.0,107.0)
+:Sending Touch (ACTION_UP): 0:(524.6004,89.70413)
+:Sending Touch (ACTION_DOWN): 0:(936.0,1571.0)
+:Sending Touch (ACTION_UP): 0:(920.5476,1566.3539)
+:Sending Touch (ACTION_DOWN): 0:(477.0,1770.0)
+:Sending Touch (ACTION_UP): 0:(483.0593,1762.9915)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.android.gallery3d cmp=com.android.gallery3d/.app.GalleryActivity } in package com.android.gallery3d
+:Sending Touch (ACTION_DOWN): 0:(622.0,820.0)
+:Sending Touch (ACTION_UP): 0:(627.87976,808.27655)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(401.0,952.0)
+:Sending Touch (ACTION_UP): 0:(478.22668,1050.0186)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(144.0,1720.0)
+:Sending Touch (ACTION_UP): 0:(144.15736,1715.0035)
+:Sending Touch (ACTION_DOWN): 0:(1037.0,1577.0)
+:Sending Touch (ACTION_UP): 0:(1106.6711,1560.421)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    //[calendar_time:2022-06-20 20:40:10.731  system_uptime:32456264]
+    // Sending event #1000
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(878.0,197.0)
+:Sending Touch (ACTION_UP): 0:(868.067,185.82283)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(64.0,1345.0)
+:Sending Touch (ACTION_UP): 0:(65.04697,1345.217)
+:Sending Touch (ACTION_DOWN): 0:(460.0,640.0)
+:Sending Touch (ACTION_UP): 0:(477.6506,646.9469)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Touch (ACTION_DOWN): 0:(752.0,2306.0)
+:Sending Touch (ACTION_UP): 0:(763.9006,2305.5823)
+:Sending Touch (ACTION_DOWN): 0:(684.0,213.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(732.13165,181.00745)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(42.0,727.0)
+:Sending Touch (ACTION_UP): 0:(68.01873,753.5564)
+:Sending Touch (ACTION_DOWN): 0:(53.0,2305.0)
+:Sending Touch (ACTION_UP): 0:(56.695698,2303.8652)
+:Sending Touch (ACTION_DOWN): 0:(1418.0,277.0)
+:Sending Touch (ACTION_UP): 0:(1400.0697,279.90076)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+    //[calendar_time:2022-06-20 20:40:15.373  system_uptime:32460905]
+    // Sending event #1100
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(611.0,1953.0)
+:Sending Touch (ACTION_UP): 0:(553.41583,1870.2573)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(357.0,2098.0)
+:Sending Touch (ACTION_UP): 0:(398.6701,2079.1028)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1136.0,2266.0)
+:Sending Touch (ACTION_UP): 0:(1115.8899,2254.7156)
+:Sending Touch (ACTION_DOWN): 0:(276.0,1132.0)
+:Sending Touch (ACTION_UP): 0:(262.78748,1136.3888)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+    //[calendar_time:2022-06-20 20:40:18.971  system_uptime:32464503]
+    // Sending event #1200
+:Sending Touch (ACTION_DOWN): 0:(680.0,1782.0)
+:Sending Touch (ACTION_UP): 0:(679.11914,1771.9077)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1052.0,1927.0)
+:Sending Touch (ACTION_UP): 0:(1043.1136,1943.4104)
+:Sending Touch (ACTION_DOWN): 0:(281.0,1007.0)
+:Sending Touch (ACTION_UP): 0:(183.776,930.7025)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(946.0,1920.0)
+:Sending Touch (ACTION_UP): 0:(1000.2143,1872.5587)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(159.0,810.0)
+:Sending Touch (ACTION_UP): 0:(163.36238,810.3285)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Touch (ACTION_DOWN): 0:(552.0,1818.0)
+    //[calendar_time:2022-06-20 20:40:23.803  system_uptime:32469335]
+    // Sending event #1300
+:Sending Touch (ACTION_UP): 0:(578.6068,1872.2975)
+:Sending Touch (ACTION_DOWN): 0:(1368.0,2074.0)
+:Sending Touch (ACTION_UP): 0:(1339.5283,2064.3062)
+:Sending Touch (ACTION_DOWN): 0:(28.0,2370.0)
+:Sending Touch (ACTION_UP): 0:(24.856352,2369.922)
+:Sending Touch (ACTION_DOWN): 0:(977.0,165.0)
+:Sending Touch (ACTION_UP): 0:(948.3859,174.07887)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(531.0,100.0)
+:Sending Touch (ACTION_UP): 0:(523.5405,114.081024)
+:Sending Touch (ACTION_DOWN): 0:(1273.0,1867.0)
+:Sending Touch (ACTION_UP): 0:(1260.1907,1857.6382)
+:Sending Touch (ACTION_DOWN): 0:(1415.0,185.0)
+:Sending Touch (ACTION_UP): 0:(1440.0,182.98654)
+:Sending Touch (ACTION_DOWN): 0:(1252.0,2044.0)
+:Sending Touch (ACTION_UP): 0:(1253.835,2035.6644)
+:Sending Touch (ACTION_DOWN): 0:(1336.0,915.0)
+:Sending Touch (ACTION_UP): 0:(1321.9453,933.3167)
+:Sending Touch (ACTION_DOWN): 0:(157.0,1994.0)
+:Sending Touch (ACTION_UP): 0:(157.55379,2004.1935)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(318.0,2313.0)
+:Sending Touch (ACTION_UP): 0:(326.71225,2329.4988)
+    //[calendar_time:2022-06-20 20:40:28.538  system_uptime:32474071]
+    // Sending event #1400
+    //[calendar_time:2022-06-20 20:40:28.539  system_uptime:32474071]
+    // Sending event #1400
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(27.0,357.0)
+:Sending Touch (ACTION_UP): 0:(26.4577,358.2358)
+:Sending Touch (ACTION_DOWN): 0:(685.0,596.0)
+:Sending Touch (ACTION_UP): 0:(684.6527,596.1585)
+:Sending Touch (ACTION_DOWN): 0:(198.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(211.68245,1144.6306)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(827.0,986.0)
+:Sending Touch (ACTION_UP): 0:(798.20483,993.0869)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Touch (ACTION_DOWN): 0:(981.0,1778.0)
+:Sending Touch (ACTION_UP): 0:(980.38495,1779.5875)
+:Sending Touch (ACTION_DOWN): 0:(1340.0,741.0)
+:Sending Touch (ACTION_UP): 0:(1343.8558,739.4692)
+:Sending Touch (ACTION_DOWN): 0:(1040.0,1047.0)
+:Sending Touch (ACTION_UP): 0:(965.2386,983.5595)
+:Sending Touch (ACTION_DOWN): 0:(977.0,95.0)
+:Sending Touch (ACTION_UP): 0:(1007.40125,110.87947)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.main.impl.MainActivity } in package com.android.dialer
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher3/.uioverrides.QuickstepLauncher } in package com.android.launcher3
+    // Injection Failed
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.google.android.apps.maps cmp=com.google.android.apps.maps/com.google.android.maps.MapsActivity } in package com.google.android.apps.maps
+:Sending Touch (ACTION_DOWN): 0:(603.0,377.0)
+:Sending Touch (ACTION_UP): 0:(599.59467,371.55853)
+:Sending Touch (ACTION_DOWN): 0:(1253.0,2301.0)
+:Sending Touch (ACTION_UP): 0:(1245.2264,2320.2185)
+:Sending Touch (ACTION_DOWN): 0:(1121.0,1443.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.android.camera2 cmp=com.android.camera2/com.android.camera.CameraLauncher } in package com.android.camera2
+:Sending Touch (ACTION_UP): 0:(1119.0962,1439.914)
+    //[calendar_time:2022-06-20 20:40:33.209  system_uptime:32478741]
+    // Sending event #1500
+    //[calendar_time:2022-06-20 20:40:33.209  system_uptime:32478742]
+    // Sending event #1500
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(948.0,1628.0)
+:Sending Touch (ACTION_UP): 0:(845.79895,1690.4056)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(948.0,1756.0)
+:Sending Touch (ACTION_UP): 0:(946.86597,1756.6427)
+:Sending Touch (ACTION_DOWN): 0:(909.0,1641.0)
+:Sending Touch (ACTION_UP): 0:(909.19714,1631.2809)
+:Sending Touch (ACTION_DOWN): 0:(1095.0,919.0)
+:Sending Touch (ACTION_UP): 0:(1130.3424,920.05426)
+:Sending Touch (ACTION_DOWN): 0:(1268.0,303.0)
+:Sending Touch (ACTION_UP): 0:(1266.7712,301.29755)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH pkg=com.android.quicksearchbox cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(129.0,1743.0)
+    //[calendar_time:2022-06-20 20:40:36.792  system_uptime:32482324]
+    // Sending event #1600
+:Sending Touch (ACTION_UP): 0:(53.594296,1755.984)
+:Sending Touch (ACTION_DOWN): 0:(448.0,1048.0)
+:Sending Touch (ACTION_UP): 0:(485.24063,1052.1815)
+:Sending Touch (ACTION_DOWN): 0:(753.0,1994.0)
+:Sending Touch (ACTION_UP): 0:(747.7671,1969.2251)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(1411.0,1482.0)
+:Sending Touch (ACTION_UP): 0:(1366.9618,1581.796)
+:Sending Touch (ACTION_DOWN): 0:(1238.0,336.0)
+    // Rejecting start of Intent { act=android.intent.action.APPLICATION_PREFERENCES pkg=com.android.launcher3 cmp=com.android.launcher3/.settings.SettingsActivity } in package com.android.launcher3
+:Sending Touch (ACTION_UP): 0:(1222.5275,333.43457)
+:Sending Touch (ACTION_DOWN): 0:(1282.0,1480.0)
+:Sending Touch (ACTION_UP): 0:(1197.6901,1457.9011)
+:Sending Touch (ACTION_DOWN): 0:(1147.0,2047.0)
+:Sending Touch (ACTION_UP): 0:(989.872,1963.6814)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(891.0,1083.0)
+    //[calendar_time:2022-06-20 20:40:41.033  system_uptime:32486565]
+    // Sending event #1700
+:Sending Touch (ACTION_UP): 0:(892.7589,1015.388)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(281.0,1506.0)
+:Sending Touch (ACTION_UP): 0:(268.22733,1513.3154)
+:Sending Touch (ACTION_DOWN): 0:(970.0,180.0)
+:Sending Touch (ACTION_UP): 0:(970.695,185.33005)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Touch (ACTION_DOWN): 0:(618.0,1474.0)
+:Sending Touch (ACTION_UP): 0:(619.5319,1459.8038)
+:Sending Touch (ACTION_DOWN): 0:(62.0,2010.0)
+:Sending Touch (ACTION_UP): 0:(68.98076,2012.4735)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(889.0,2383.0)
+:Sending Touch (ACTION_UP): 0:(889.8844,2381.5134)
+:Sending Touch (ACTION_DOWN): 0:(1108.0,379.0)
+:Sending Touch (ACTION_UP): 0:(1095.6917,387.2776)
+:Sending Touch (ACTION_DOWN): 0:(775.0,2072.0)
+:Sending Touch (ACTION_UP): 0:(755.36194,2144.6885)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.pinterest/.activity.PinterestActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.pinterest/.activity.PinterestActivity } in package com.pinterest
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(42.0,686.0)
+    //[calendar_time:2022-06-20 20:40:47.718  system_uptime:32493251]
+    // Sending event #1800
+:Sending Touch (ACTION_UP): 0:(3.5451555,675.1163)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(157.0,1172.0)
+:Sending Touch (ACTION_UP): 0:(166.79645,1160.0731)
+:Sending Touch (ACTION_DOWN): 0:(298.0,71.0)
+:Sending Touch (ACTION_UP): 0:(292.54123,78.92119)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1385.0,2239.0)
+:Sending Touch (ACTION_UP): 0:(1438.1284,2328.9673)
+:Sending Touch (ACTION_DOWN): 0:(777.0,2089.0)
+:Sending Touch (ACTION_UP): 0:(765.4496,2099.936)
+:Sending Touch (ACTION_DOWN): 0:(346.0,921.0)
+:Sending Touch (ACTION_UP): 0:(348.80106,904.90063)
+:Sending Touch (ACTION_DOWN): 0:(528.0,870.0)
+:Sending Touch (ACTION_UP): 0:(577.28467,939.1806)
+:Sending Touch (ACTION_DOWN): 0:(7.0,543.0)
+:Sending Touch (ACTION_UP): 0:(3.0192242,543.35767)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+    //[calendar_time:2022-06-20 20:40:53.187  system_uptime:32498720]
+    // Sending event #1900
+:Sending Touch (ACTION_DOWN): 0:(903.0,477.0)
+:Sending Touch (ACTION_UP): 0:(885.6579,487.65387)
+:Sending Touch (ACTION_DOWN): 0:(1062.0,1550.0)
+:Sending Touch (ACTION_UP): 0:(1061.7744,1555.8154)
+:Sending Touch (ACTION_DOWN): 0:(1413.0,208.0)
+:Sending Touch (ACTION_UP): 0:(1410.0073,214.19748)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(989.0,492.0)
+:Sending Touch (ACTION_UP): 0:(989.6331,493.99786)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1053.0,1013.0)
+:Sending Touch (ACTION_UP): 0:(1044.8158,1016.04517)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+Events injected: 2000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=8 trackballs=0 flips=9 rotations=0
+## Network stats: elapsed time=78194ms (0ms mobile, 0ms wifi, 78194ms not connected)
+// Monkey finished
